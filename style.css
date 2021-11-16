@@ -1,0 +1,36 @@
+/* A todos los elementos del HTML se le van a aplicar las siguientes propiedades:
+padding: 0 sirve para que no se cree un relleno (espacio alrededor del contenido de un elemento), dentro de los bordes definidos.
+margin: 0 se utilizan para que no se cree un margen (espacio alrededor de los elementos), fuera de los bordes definidos.
+text-decoration: none facilita que se le quite la decoracion que trae el texto por defecto, debido a que son enlaces
+list-style: none quita las viñetas de las listas desordenadas (ul)
+box-sizing: border-box le dice al navegador tomar en cuenta para cualquier valor que se especifique en el padding para el ancho o alto de un elemento. 
+
+*/
+* {
+padding:0; 
+margin: 0;
+text-decoration: none;
+list-style: none;
+
+}
+
+/* Todos los elementos dentro de la etiqueta body van a tener la fuente Montserrat */
+body {
+  font-family: "Montserrat";
+}
+
+/*Espacio en la parte de arriba del carrucel de 30px*/
+.contendedor-carrusel{
+  margin: 50px 150px;
+  padding: auto 1200px;
+  max-width: 1200px;
+  align-content: center;
+}
+
+/*Los parrafos tendran un espacio en la parte de arriba y abajo de 50px y en la parte izquierda y derecha de 20px 
+display: flex permite que el comportamiento de visualizacion del elemento sea flexible,en donde se puedan alterar sus dimensiones y llenar espacios disponibles
+*/
+p{
+  margin: 30px 10px;
+  
+}
