@@ -1,6 +1,7 @@
 Taller-Bootstrap
 
 Integrantes: 
+
 Maria Camila Martinez
 
 Daniel Santiago Gaviria
