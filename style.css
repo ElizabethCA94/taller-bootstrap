@@ -42,13 +42,24 @@ arriba y abajo de auto,  que significa que se adapta al tamaño del elemento e i
 
 /*el dataTable tiene un id #tabla-banda la cual va a tener un ancho del 100% de la pagina,
 con un color de texto blanco,
-se le va a aplicar un centrado, es decir, alinear el texto al centro*/
+se le va a aplicar un centrado, es decir, alinear el texto al centro
+opacidad de 0.8*/
 #tabla-banda{
   width:100%;
   color: white;
   text-align: center;
+  opacity: 0.8;
 }
 
+/*se aplica al id #tabla-banda y a su descendiente thead un color de fondo*/
+#tabla-banda thead {
+  background-color: rgba(114, 228, 213, 0.4)
+}
+
+/*se aplica al id #tabla-banda y a su descendiente tfoot un color de fondo*/
+#tabla-banda tfoot {
+  background-color: rgba(114, 228, 213, 0.4)
+}
 
 /*NAV
 la iamgen con la clase logo en el nav tendra un tamaño maximo de 100px, y un margen en la parte de arriba y abajo de 2px y en la parte izquierda y derecha de 10px*/
@@ -86,8 +97,8 @@ color de texto blanco, y un fondo gris
 }
 
 /*A la clase .footer-dark y a la descendencia h3 se le va a aplicar un margen superior de 0, para que no se cree un margen (espacio alrededor de los elementos), fuera de los bordes definidos,
- un margen inferior de 12px (espacio alrededor de los elementos), fuera de los bordes definidos,
- un peso de fuente tipo negrita, y un tamaño de fuente de 16px 
+un margen inferior de 12px (espacio alrededor de los elementos), fuera de los bordes definidos,
+un peso de fuente tipo negrita, y un tamaño de fuente de 16px 
 */
 .footer-dark h3 {
   margin-top:0;
@@ -98,8 +109,8 @@ color de texto blanco, y un fondo gris
 
 /*A la clase .footer-dark y a la descendencia ul se le va a aplicar padding: 0 arriba y abajo y 0 izquierda y derecha (espacio alrededor del contenido de un elemento), dentro de los bordes definidos, 
 se le quita estilos de linea, y se le coloca un interlineado de 1.6px
- un margen inferior de 0, para que no se cree un margen (espacio alrededor de los elementos), fuera de los bordes definidos,
- y una opacidad en el texto de 0,6
+un margen inferior de 0, para que no se cree un margen (espacio alrededor de los elementos), fuera de los bordes definidos,
+y una opacidad en el texto de 0,6
 */
 .footer-dark ul {
   padding:0;
@@ -166,10 +177,10 @@ y opacidad de 0,75 */
 }
 
 /*A la clase .footer-dark y a la descendencia clase .copyright se le va a aplicar un centrado, es decir, alinear el texto al centro,
- un padding: 24px arriba y abajo e izquierda y derecha (espacio alrededor del contenido de un elemento), dentro de los bordes definidos,
- una opacidad de 0,3
- un tamaño de fuente de 13px
- y un margen inferior de 0 para que no se cree un margen (espacio alrededor de los elementos), fuera de los bordes definidos 
+un padding: 24px arriba y abajo e izquierda y derecha (espacio alrededor del contenido de un elemento), dentro de los bordes definidos,
+una opacidad de 0,3
+un tamaño de fuente de 13px
+y un margen inferior de 0 para que no se cree un margen (espacio alrededor de los elementos), fuera de los bordes definidos 
  */
 .footer-dark .copyright {
   text-align:center;
